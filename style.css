@@ -193,3 +193,67 @@ margin-bottom: 20px;
     font-weight:700;
     margin-top: 15px;
 }
+/* online games funny part */
+.online-title{
+    text-align: center;
+}
+.online-heading{
+    font-size: 48px;
+font-weight: 700;
+color: #0B0223;
+margin-bottom: 15px;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
+.online-para{
+    margin-bottom:30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+}
+.all-online-img{
+    display: flex;
+    justify-content: center;
+    gap:24px;   
+}
+.img-size{
+    width: 342px;
+    height: 400px;
+}
+.para-size{
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+}
+
+.mother-div{
+    position: relative;
+}
+.mother-div:hover .child-div2{
+    visibility: visible;
+    border:4px solid hwb(329 5% 5%);
+    border-radius: 18px;
+}
+.child-div2{
+    position: absolute;
+    top:0;
+    right:0;
+    opacity: .7;
+    background: black;
+    width: 337px;
+    height: 395px;
+    border-radius: 16px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: hwb(329 5% 5%);
+    visibility: hidden;
+    font-size: 20px;
+}
