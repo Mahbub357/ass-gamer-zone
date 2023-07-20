@@ -541,5 +541,46 @@ margin-bottom: 35px;
      }
      
      
+     .mati{
+        width: 200px;
+        height: 80px;
+        padding: 0;
+        padding-left: 10px;
+       margin-top: 10px;
+      
+     }
+     .cartoon-size1{
+        padding: 0px;
+        margin: 0;
+        flex-direction:column ;
+     }
+     .cartoon-size2{
+        padding: 0px;
+        margin: 0;
+        flex-direction:column ;
+     }
+     .cartoon-div{
+        height: 800px;
+        padding-left: 60px;
+        padding-top: 80px;
+     }
+
+     .list{
+        gap: 10px;
+        flex-direction: column;
+        margin: 0;
+     }
+     h6{
+        margin: 10px;
+     }
+     .policy{
+        flex-direction: column;
+        margin: 0;
+     }
+     .policy p{
+        padding: 0;
+        gap: 5px;
+        margin: 0px 0px;
+     }
      
 }
