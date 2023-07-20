@@ -1,4 +1,9 @@
+/* work sans font*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+* {
+    font-family: 'Work Sans', sans-serif;
+}
 /* Nav bar*/
 nav{
     display: flex;
@@ -46,7 +51,7 @@ a{
     display: flex;
     background-color: rgba(11, 2, 35, 0.10);
     border-radius: 8px;
-    width: 226px;
+    width: 262px;
     height: 56px;
     align-items: center;
     justify-content:center;
@@ -64,7 +69,7 @@ a{
 .follow{
     margin-left:20px;
     margin-right: 20px;
-    color: #3C354F;
+    font-size: 18px;
     font-weight:500;
     color:#3C354F;
 }
@@ -352,10 +357,81 @@ h5{
     font-size: 20px;
 font-weight: 600;
 color: #0B0223;
-transition: all 0.4s linear;
+transition: all 0.2s linear;
 }
 h5:hover{
     color: #F948B2;
 }
 /* footer part*/
+.footer-div{
+    background-color: #0B0223;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    color:white;
+    gap:60px;
+    align-items:center;
+    
 
+}
+.social-icon{
+    display: flex;
+    justify-content: center;  
+    gap:40px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 35px;
+}
+.policy{
+    display: flex;
+    justify-content: center; 
+    gap: 60px;
+    align-items: center;
+}
+.last-line{
+    display: flex;
+    justify-content: center; 
+}
+.footer-div{
+    padding: 50px 240px;
+}
+.logo img{
+    width: 86.041px;
+height: 40px;
+}
+.foot-g{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 45px;
+font-weight: 700;
+}
+.logo h3{
+    font-size: 45px;
+font-weight: 700;
+color:white;
+}
+.list h6{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.policy p{
+    font-size: 16px;
+font-weight: 500;
+color: rgba(255, 255, 255, 0.60);
+}
+.last-line{
+    font-size: 16px;
+font-weight: 500;
+color: rgba(255, 255, 255, 0.60);
+margin-bottom: 35px;
+}
